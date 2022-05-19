@@ -1,0 +1,235 @@
+.container{
+    width: 100%;
+    height: 70vh;
+    overflow-y: scroll;
+}
+div::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  div::-webkit-scrollbar-thumb {
+    background: transparent; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  div::-webkit-scrollbar-thumb:hover {
+    background: blue; 
+  }
+
+
+.inputDiv{
+    border: 1px solid black;
+    border-radius: 50px 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.inputDiv form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-left: 10px;
+}
+.inputDiv input{
+    border: 0px solid transparent;
+    border-radius: 50px 50px;
+    width: 85%;
+    height: 5vh;
+}
+.inputDiv .attachfiles{
+    border: 1px;
+    background-color: white;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.inputDiv .emojis{
+    border: 1px;
+    background-color: white;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.inputDiv .sendmessage{
+    border: 1px;
+    background-color: white;
+    padding-top: 10px;
+    
+}
+.webcamBtn{
+  position: relative;
+  top: 40%;
+  color: black;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 50px 50px;
+  width: 12em;
+  height: 2.8em;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  overflow: hidden;
+  cursor: pointer;
+ transition: 500ms linear;
+}
+.webcamBtn:hover{
+  background-color: blue;
+  color: white;
+}
+
+
+@media screen and (max-width:600px){
+
+    .container{
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .inputDiv{
+        border: 1px solid black;
+        border-radius: 50px 50px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .inputDiv form{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .inputDiv input{
+        border: 0px solid transparent;
+        border-radius: 50px 50px;
+        width: 95%;
+        height: 5vh;
+    }
+    .inputDiv .attachfiles{
+        border: 1px;
+        background-color: white;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    .inputDiv .emojis{
+        border: 1px;
+        background-color: white;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    .inputDiv .sendmessage{
+        border: 1px;
+        background-color: white;
+        padding-top: 10px;
+        font-size: 10px;
+        cursor: pointer;
+        
+    }
+    .webcamBtn{
+      position: relative;
+      top: 40%;
+      color: black;
+      font-size: 14px;
+      border: 1px solid black;
+      border-radius: 50px 50px;
+      width: 12em;
+      height: 2.8em;
+      font-family: sans-serif;
+      letter-spacing: 0.1em;
+      text-align: center;
+      line-height: 3em;
+      overflow: hidden;
+      cursor: pointer;
+     transition: 500ms linear;
+    }
+    .webcamBtn:hover{
+      background-color: blue;
+      color: white;
+    }
+    
+}
+
+
+@media screen and (max-width:400px){
+
+    .container{
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .inputDiv{
+        border: 1px solid black;
+        border-radius: 50px 50px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .inputDiv form{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .inputDiv input{
+        border: 0px solid transparent;
+        border-radius: 50px 50px;
+        width: 95%;
+        height: 5vh;
+    }
+    .inputDiv .attachfiles{
+        border: 1px;
+        background-color: white;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    .inputDiv .emojis{
+        border: 1px;
+        background-color: white;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    .inputDiv .sendmessage{
+        border: 1px;
+        background-color: white;
+        padding-top: 10px;
+        font-size: 10px;
+        
+    }
+    .webcamBtn{
+      position: relative;
+      top: 40%;
+      color: black;
+      font-size: 14px;
+      border: 1px solid black;
+      border-radius: 50px 50px;
+      width: 12em;
+      height: 2.8em;
+      font-family: sans-serif;
+      letter-spacing: 0.1em;
+      text-align: center;
+      line-height: 3em;
+      overflow: hidden;
+      cursor: pointer;
+     transition: 500ms linear;
+    }
+    .webcamBtn:hover{
+      background-color: blue;
+      color: white;
+    }
+    
+}

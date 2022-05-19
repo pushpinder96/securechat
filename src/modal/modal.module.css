@@ -1,0 +1,21 @@
+@media screen and (max-width:600px){
+.firstProp{
+    font-size: 12px;
+}
+
+.secondProp{
+    font-size: 12px;
+
+}
+}
+
+@media screen and (max-width:400px){
+    .firstProp{
+        font-size: 12px;
+    }
+    
+    .secondProp{
+        font-size: 12px;
+    
+    }
+    }

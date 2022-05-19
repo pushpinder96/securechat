@@ -1,0 +1,67 @@
+.adminMessage{
+   font-size:0.8em;
+   font-weight:500;
+    padding: 10px;
+    width: auto;
+    max-width: 100%;
+    height: max-content;
+    word-wrap: break-word;
+    border-radius: 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: #e8eaf6;
+}
+.newUserJoined{
+    font-size:0.8em;
+    font-weight:500;
+     padding: 10px;
+     width: auto;
+     max-width: 100%;
+     height: max-content;
+     word-wrap: break-word;
+     border-radius: 15px 15px;
+     display: flex;
+     justify-content: center;
+     align-self: center;
+     background-color: #e8eaf6;
+
+}
+.attachedFilesDiv{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    .adminMessage{
+        font-size:0.8em;
+        font-weight:500;
+         padding: 10px;
+         width: auto;
+         max-width: 100%;
+         height: max-content;
+         word-wrap: break-word;
+         border-radius: 15px 15px;
+         display: flex;
+         justify-content: center;
+         align-self: center;
+         background-color: #e8eaf6;
+     }
+     .newUserJoined{
+         font-size:0.8em;
+         font-weight:500;
+          padding: 10px;
+          width: auto;
+          max-width: 100%;
+          height: max-content;
+          word-wrap: break-word;
+          border-radius: 15px 15px;
+          display: flex;
+          justify-content: center;
+          align-self: center;
+          background-color: #e8eaf6;
+     
+     }
+     .attachedFilesDiv{
+         display: none;
+     }
+}
