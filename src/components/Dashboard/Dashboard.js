@@ -52,7 +52,7 @@ function DashboardContent() {
   const [progress,setprogress] = useState('');
   //effects
 
-  const ENDPOINT='localhost:8080';
+  const ENDPOINT='https://secure-chat-app.adaptable.app/';
   const [username,setusername] = useState('');
   const [userRoom,SetUserRoom] = useState('');
   const [adminMsg,setadminMsg] = useState('');
